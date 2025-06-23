@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Milan Solanki – MERN Stack Developer Portfolio
 
 This is the official portfolio website of **Milan Solanki**, built using React.js and styled with Bootstrap & Tailwind CSS. It highlights my technical skills, MERN stack projects, experience, and contact information.
