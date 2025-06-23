@@ -19,9 +19,8 @@ This is the official portfolio website of **Milan Solanki**, built using React.j
 ## 📌 Live Preview
 [https://yourdomain.com](https://yourdomain.com)
 
-
 ---
 
 > This portfolio was created to demonstrate my skills as a full-stack developer with a focus on clean code, real-world applications, and user experience.
-=======
+
 # React + Vite
