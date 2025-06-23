@@ -1,0 +1,28 @@
+.projects-section {
+  background-color: #000;
+  color: white;
+}
+
+.project-card {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+}
+
+.project-card a.btn {
+  align-self: start;
+}

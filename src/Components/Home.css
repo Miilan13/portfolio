@@ -1,0 +1,129 @@
+.tech-loop-wrapper {
+  overflow: hidden;
+  background-color: #000; /* pure black */
+  border-radius: 12px;
+}
+
+.marquee-row {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.marquee-content {
+  display: inline-flex;
+  animation: scroll-left 20s linear infinite;
+  min-width: max-content;
+}
+
+.marquee-right .marquee-content {
+  animation: scroll-right 20s linear infinite;
+}
+
+.tech-box {
+  background: #111; /* darker shade for each card */
+  color: white;
+  padding: 10px;
+  margin: 0 12px;
+  border-radius: 12px;
+  text-align: center;
+  min-width: 100px;
+  max-width: 120px;
+  box-shadow: none; /* remove gray glow */
+}
+
+.icon {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.label {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+
+.home-wrapper {
+  background-color: #000;
+  color: white;
+  min-height: 100vh;
+}
+
+/* Infinite Scrolling Rows */
+.infinite-loop-section {
+  overflow: hidden;
+  padding: 40px 0;
+  background-color: #000;
+}
+
+.loop-row {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.loop-track {
+  display: inline-flex;
+  min-width: 200%;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.loop-track.to-right {
+  animation-name: scroll-right;
+}
+
+.loop-track.to-left {
+  animation-name: scroll-left;
+}
+
+.loop-row:first-child .loop-track {
+  animation-duration: 25s; /* Top row speed */
+}
+
+.loop-row:nth-child(2) .loop-track {
+  animation-duration: 40s; /* Bottom row speed */
+  animation-delay: -20s;   /* Half of duration for offset */
+}
+
+.loop-item {
+  background: #111;
+  border-radius: 12px;
+  margin: 0 10px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.loop-item .icon {
+  font-size: 1.6rem;
+}
+
+.loop-item .label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 4px;
+}

@@ -1,0 +1,13 @@
+.about-section {
+  background-color: #000;
+  color: white;
+}
+
+.about-section h2 {
+  font-weight: 600;
+}
+
+.about-section p {
+  font-size: 1rem;
+  line-height: 1.7;
+}

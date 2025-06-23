@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* i want black background for the whole page */
+body {
+    background-color: black !important;
+    color: white !important;
+}
